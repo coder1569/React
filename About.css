@@ -1,0 +1,108 @@
+/* About Page Styling */
+.about-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 4rem 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    color: #1a73e8;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .about-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .about-text h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .about-image-container {
+    flex: 1;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .about-services {
+    background-color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .about-services h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .service-item {
+    background-color: #e3f2fd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-item h3 {
+    font-size: 20px;
+    color: #1a73e8;
+    margin-bottom: 1rem;
+  }
+  
+  .service-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .about-footer {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-top: 3rem;
+  }
+  
